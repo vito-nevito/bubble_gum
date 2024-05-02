@@ -1,0 +1,15 @@
+BUBBLEGUM FILE
+
+dimension (10 10 10)
+
+numD (200 200 200)
+
+velocityM 2
+
+deltaT 0.1
+
+writeInterval 0.5
+
+endTime 10
+
+END

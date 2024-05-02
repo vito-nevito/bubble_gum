@@ -1,0 +1,699 @@
+10
+10
+10
+200
+200
+200
+2
+0.1
+0.5
+10
+Time 0
+Bubble0 :
+	x = 3.025
+	y = 1.025
+	z = 7.025
+	radius = 0.00288288
+
+Time 0.4
+Bubble0 :
+	x = 1.025
+	y = 0.025
+	z = 5.025
+	radius = 0.00288288
+
+Time 0.8
+Bubble0 :
+	x = 1.025
+	y = 0.025
+	z = 5.025
+	radius = 0.00288288
+
+Time 1.2
+Bubble0 :
+	x = 1.025
+	y = 0.025
+	z = 5.025
+	radius = 0.00288288
+Bubble1 :
+	x = 0.025
+	y = 3.025
+	z = 5.025
+	radius = 0.0206712
+
+Time 1.6
+Bubble0 :
+	x = 1.025
+	y = 0.025
+	z = 5.025
+	radius = 0.00288288
+Bubble1 :
+	x = 0.025
+	y = 3.025
+	z = 5.025
+	radius = 0.0206712
+
+Time 2
+Bubble0 :
+	x = 1.025
+	y = 0.025
+	z = 5.025
+	radius = 0.00288288
+Bubble1 :
+	x = 0.025
+	y = 3.025
+	z = 5.025
+	radius = 0.0206712
+Bubble2 :
+	x = 2.025
+	y = 9.025
+	z = 8.025
+	radius = 0.0475366
+
+Time 2.4
+Bubble0 :
+	x = 1.025
+	y = 0.025
+	z = 5.025
+	radius = 0.00288288
+Bubble1 :
+	x = 0.025
+	y = 3.025
+	z = 5.025
+	radius = 0.0206712
+Bubble2 :
+	x = 2.025
+	y = 9.025
+	z = 7.025
+	radius = 0.0475366
+
+Time 2.8
+Bubble0 :
+	x = 1.025
+	y = 0.025
+	z = 5.025
+	radius = 0.00288288
+Bubble1 :
+	x = 0.025
+	y = 3.025
+	z = 5.025
+	radius = 0.0206712
+Bubble2 :
+	x = 2.025
+	y = 9.025
+	z = 7.025
+	radius = 0.0475366
+
+Time 3.2
+Bubble0 :
+	x = 1.025
+	y = 0.025
+	z = 5.025
+	radius = 0.00288288
+Bubble1 :
+	x = 0.025
+	y = 3.025
+	z = 5.025
+	radius = 0.0206712
+Bubble2 :
+	x = 2.025
+	y = 9.025
+	z = 7.025
+	radius = 0.0475366
+Bubble3 :
+	x = 2.025
+	y = 6.025
+	z = 8.025
+	radius = 0.015601
+
+Time 3.6
+Bubble0 :
+	x = 1.025
+	y = 0.025
+	z = 5.025
+	radius = 0.00288288
+Bubble1 :
+	x = 0.025
+	y = 3.025
+	z = 5.025
+	radius = 0.0206712
+Bubble2 :
+	x = 2.025
+	y = 9.025
+	z = 7.025
+	radius = 0.0475366
+Bubble3 :
+	x = 0.025
+	y = 4.025
+	z = 7.025
+	radius = 0.015601
+
+Time 4
+Bubble0 :
+	x = 1.025
+	y = 0.025
+	z = 5.025
+	radius = 0.00288288
+Bubble1 :
+	x = 0.025
+	y = 3.025
+	z = 5.025
+	radius = 0.0206712
+Bubble2 :
+	x = 2.025
+	y = 9.025
+	z = 7.025
+	radius = 0.0475366
+Bubble3 :
+	x = 0.025
+	y = 4.025
+	z = 7.025
+	radius = 0.015601
+Bubble4 :
+	x = 6.025
+	y = 4.025
+	z = 1.025
+	radius = 0.0154926
+
+Time 4.4
+Bubble0 :
+	x = 1.025
+	y = 0.025
+	z = 5.025
+	radius = 0.00288288
+Bubble1 :
+	x = 0.025
+	y = 3.025
+	z = 5.025
+	radius = 0.0206712
+Bubble2 :
+	x = 2.025
+	y = 9.025
+	z = 7.025
+	radius = 0.0475366
+Bubble3 :
+	x = 0.025
+	y = 4.025
+	z = 7.025
+	radius = 0.015601
+Bubble4 :
+	x = 4.025
+	y = 2.025
+	z = 0.025
+	radius = 0.0154926
+
+Time 4.8
+Bubble0 :
+	x = 1.025
+	y = 0.025
+	z = 5.025
+	radius = 0.00288288
+Bubble1 :
+	x = 0.025
+	y = 3.025
+	z = 5.025
+	radius = 0.0206712
+Bubble2 :
+	x = 2.025
+	y = 9.025
+	z = 7.025
+	radius = 0.0475366
+Bubble3 :
+	x = 0.025
+	y = 4.025
+	z = 7.025
+	radius = 0.015601
+Bubble4 :
+	x = 4.025
+	y = 2.025
+	z = 0.025
+	radius = 0.0154926
+
+Time 5.2
+Bubble0 :
+	x = 1.025
+	y = 0.025
+	z = 5.025
+	radius = 0.00288288
+Bubble1 :
+	x = 0.025
+	y = 3.025
+	z = 5.025
+	radius = 0.0206712
+Bubble2 :
+	x = 2.025
+	y = 9.025
+	z = 7.025
+	radius = 0.0475366
+Bubble3 :
+	x = 0.025
+	y = 4.025
+	z = 7.025
+	radius = 0.015601
+Bubble4 :
+	x = 4.025
+	y = 2.025
+	z = 0.025
+	radius = 0.0154926
+Bubble5 :
+	x = 7.025
+	y = 6.025
+	z = 3.025
+	radius = 0.0289772
+
+Time 5.6
+Bubble0 :
+	x = 1.025
+	y = 0.025
+	z = 5.025
+	radius = 0.00288288
+Bubble1 :
+	x = 0.025
+	y = 3.025
+	z = 5.025
+	radius = 0.0206712
+Bubble2 :
+	x = 2.025
+	y = 9.025
+	z = 7.025
+	radius = 0.0475366
+Bubble3 :
+	x = 0.025
+	y = 4.025
+	z = 7.025
+	radius = 0.015601
+Bubble4 :
+	x = 4.025
+	y = 2.025
+	z = 0.025
+	radius = 0.0154926
+Bubble5 :
+	x = 6.025
+	y = 5.025
+	z = 2.025
+	radius = 0.0289772
+
+Time 6
+Bubble0 :
+	x = 1.025
+	y = 0.025
+	z = 5.025
+	radius = 0.00288288
+Bubble1 :
+	x = 0.025
+	y = 3.025
+	z = 5.025
+	radius = 0.0206712
+Bubble2 :
+	x = 2.025
+	y = 9.025
+	z = 7.025
+	radius = 0.0475366
+Bubble3 :
+	x = 0.025
+	y = 4.025
+	z = 7.025
+	radius = 0.015601
+Bubble4 :
+	x = 4.025
+	y = 2.025
+	z = 0.025
+	radius = 0.0154926
+Bubble5 :
+	x = 6.025
+	y = 5.025
+	z = 2.025
+	radius = 0.0289772
+Bubble6 :
+	x = 3.025
+	y = 3.025
+	z = 3.025
+	radius = 0.00530302
+
+Time 6.4
+Bubble0 :
+	x = 1.025
+	y = 0.025
+	z = 5.025
+	radius = 0.00288288
+Bubble1 :
+	x = 0.025
+	y = 3.025
+	z = 5.025
+	radius = 0.0206712
+Bubble2 :
+	x = 2.025
+	y = 9.025
+	z = 7.025
+	radius = 0.0475366
+Bubble3 :
+	x = 0.025
+	y = 4.025
+	z = 7.025
+	radius = 0.015601
+Bubble4 :
+	x = 4.025
+	y = 2.025
+	z = 0.025
+	radius = 0.0154926
+Bubble5 :
+	x = 6.025
+	y = 5.025
+	z = 2.025
+	radius = 0.0289772
+Bubble6 :
+	x = 0.025
+	y = 2.025
+	z = 0.025
+	radius = 0.00530302
+
+Time 6.8
+Bubble0 :
+	x = 1.025
+	y = 0.025
+	z = 5.025
+	radius = 0.00288288
+Bubble1 :
+	x = 0.025
+	y = 3.025
+	z = 5.025
+	radius = 0.0206712
+Bubble2 :
+	x = 2.025
+	y = 9.025
+	z = 7.025
+	radius = 0.0475366
+Bubble3 :
+	x = 0.025
+	y = 4.025
+	z = 7.025
+	radius = 0.015601
+Bubble4 :
+	x = 4.025
+	y = 2.025
+	z = 0.025
+	radius = 0.0154926
+Bubble5 :
+	x = 6.025
+	y = 5.025
+	z = 2.025
+	radius = 0.0289772
+Bubble6 :
+	x = 0.025
+	y = 2.025
+	z = 0.025
+	radius = 0.00530302
+
+Time 7.2
+Bubble0 :
+	x = 1.025
+	y = 0.025
+	z = 5.025
+	radius = 0.00288288
+Bubble1 :
+	x = 0.025
+	y = 3.025
+	z = 5.025
+	radius = 0.0206712
+Bubble2 :
+	x = 2.025
+	y = 9.025
+	z = 7.025
+	radius = 0.0475366
+Bubble3 :
+	x = 0.025
+	y = 4.025
+	z = 7.025
+	radius = 0.015601
+Bubble4 :
+	x = 4.025
+	y = 2.025
+	z = 0.025
+	radius = 0.0154926
+Bubble5 :
+	x = 6.025
+	y = 5.025
+	z = 2.025
+	radius = 0.0289772
+Bubble6 :
+	x = 0.025
+	y = 2.025
+	z = 0.025
+	radius = 0.00530302
+Bubble7 :
+	does not exist.
+
+Time 7.6
+Bubble0 :
+	x = 1.025
+	y = 0.025
+	z = 5.025
+	radius = 0.00288288
+Bubble1 :
+	x = 0.025
+	y = 3.025
+	z = 5.025
+	radius = 0.0206712
+Bubble2 :
+	x = 2.025
+	y = 9.025
+	z = 7.025
+	radius = 0.0475366
+Bubble3 :
+	x = 0.025
+	y = 4.025
+	z = 7.025
+	radius = 0.015601
+Bubble4 :
+	x = 4.025
+	y = 2.025
+	z = 0.025
+	radius = 0.0154926
+Bubble5 :
+	x = 6.025
+	y = 5.025
+	z = 2.025
+	radius = 0.0289772
+Bubble6 :
+	x = 0.025
+	y = 2.025
+	z = 0.025
+	radius = 0.00530302
+Bubble7 :
+	does not exist.
+
+Time 8
+Bubble0 :
+	x = 1.025
+	y = 0.025
+	z = 5.025
+	radius = 0.00288288
+Bubble1 :
+	x = 0.025
+	y = 3.025
+	z = 5.025
+	radius = 0.0206712
+Bubble2 :
+	x = 2.025
+	y = 9.025
+	z = 7.025
+	radius = 0.0475366
+Bubble3 :
+	x = 0.025
+	y = 4.025
+	z = 7.025
+	radius = 0.015601
+Bubble4 :
+	x = 4.025
+	y = 2.025
+	z = 0.025
+	radius = 0.0154926
+Bubble5 :
+	x = 6.025
+	y = 5.025
+	z = 2.025
+	radius = 0.0289772
+Bubble6 :
+	x = 0.025
+	y = 2.025
+	z = 0.025
+	radius = 0.00530302
+Bubble7 :
+	does not exist.
+Bubble8 :
+	does not exist.
+
+Time 8.4
+Bubble0 :
+	x = 1.025
+	y = 0.025
+	z = 5.025
+	radius = 0.00288288
+Bubble1 :
+	x = 0.025
+	y = 3.025
+	z = 5.025
+	radius = 0.0206712
+Bubble2 :
+	x = 2.025
+	y = 9.025
+	z = 7.025
+	radius = 0.0475366
+Bubble3 :
+	x = 0.025
+	y = 4.025
+	z = 7.025
+	radius = 0.015601
+Bubble4 :
+	x = 4.025
+	y = 2.025
+	z = 0.025
+	radius = 0.0154926
+Bubble5 :
+	x = 6.025
+	y = 5.025
+	z = 2.025
+	radius = 0.0289772
+Bubble6 :
+	x = 0.025
+	y = 2.025
+	z = 0.025
+	radius = 0.00530302
+Bubble7 :
+	does not exist.
+Bubble8 :
+	does not exist.
+
+Time 8.8
+Bubble0 :
+	x = 1.025
+	y = 0.025
+	z = 5.025
+	radius = 0.00288288
+Bubble1 :
+	x = 0.025
+	y = 3.025
+	z = 5.025
+	radius = 0.0206712
+Bubble2 :
+	x = 2.025
+	y = 9.025
+	z = 7.025
+	radius = 0.0475366
+Bubble3 :
+	x = 0.025
+	y = 4.025
+	z = 7.025
+	radius = 0.015601
+Bubble4 :
+	x = 4.025
+	y = 2.025
+	z = 0.025
+	radius = 0.0154926
+Bubble5 :
+	x = 6.025
+	y = 5.025
+	z = 2.025
+	radius = 0.0289772
+Bubble6 :
+	x = 0.025
+	y = 2.025
+	z = 0.025
+	radius = 0.00530302
+Bubble7 :
+	does not exist.
+Bubble8 :
+	does not exist.
+
+Time 9.2
+Bubble0 :
+	x = 1.025
+	y = 0.025
+	z = 5.025
+	radius = 0.00288288
+Bubble1 :
+	x = 0.025
+	y = 3.025
+	z = 5.025
+	radius = 0.0206712
+Bubble2 :
+	x = 2.025
+	y = 9.025
+	z = 7.025
+	radius = 0.0475366
+Bubble3 :
+	x = 0.025
+	y = 4.025
+	z = 7.025
+	radius = 0.015601
+Bubble4 :
+	x = 4.025
+	y = 2.025
+	z = 0.025
+	radius = 0.0154926
+Bubble5 :
+	x = 6.025
+	y = 5.025
+	z = 2.025
+	radius = 0.0289772
+Bubble6 :
+	x = 0.025
+	y = 2.025
+	z = 0.025
+	radius = 0.00530302
+Bubble7 :
+	does not exist.
+Bubble8 :
+	does not exist.
+Bubble9 :
+	x = 0.025
+	y = 0.025
+	z = 0.025
+	radius = 0.0029855
+
+Time 9.6
+Bubble0 :
+	x = 1.025
+	y = 0.025
+	z = 5.025
+	radius = 0.00288288
+Bubble1 :
+	x = 0.025
+	y = 3.025
+	z = 5.025
+	radius = 0.0206712
+Bubble2 :
+	x = 2.025
+	y = 9.025
+	z = 7.025
+	radius = 0.0475366
+Bubble3 :
+	x = 0.025
+	y = 4.025
+	z = 7.025
+	radius = 0.015601
+Bubble4 :
+	x = 4.025
+	y = 2.025
+	z = 0.025
+	radius = 0.0154926
+Bubble5 :
+	x = 6.025
+	y = 5.025
+	z = 2.025
+	radius = 0.0289772
+Bubble6 :
+	x = 0.025
+	y = 2.025
+	z = 0.025
+	radius = 0.00530302
+Bubble7 :
+	does not exist.
+Bubble8 :
+	does not exist.
+Bubble9 :
+	x = 0.025
+	y = 0.025
+	z = 0.025
+	radius = 0.0029855
+
