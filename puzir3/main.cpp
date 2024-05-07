@@ -13,7 +13,6 @@ int main(int argc, char* argv[])
 	{
 		log = 1;
 	}
-
 	srand(time(0));
 	std::vector<double> lenRoom {10.0, 10.0, 10.0};
 	std::vector<double> startPoint {5.0, 1, 5.0};
@@ -61,10 +60,13 @@ int main(int argc, char* argv[])
 
 	std::vector<Puzir> life;
 	std::vector<Puzir> dead;
-	for(int i = 0; i < N; i++)
+	for(int i = 0; i < N+10; i++)
 	{
-		// add 1 bubble every time step
-		life.push_back(Puzir(VM, dir, startPoint, radInt));
+		// add 1 bubble
+		if(i < N)
+		{
+			life.push_back(Puzir(VM, dir, startPoint, radInt));
+		}
 		// calc new cordinates
 		for(unsigned int j = 0; j < life.size(); j++)
 		{
@@ -87,6 +89,7 @@ int main(int argc, char* argv[])
 			}
 			life[j].setCord(new_cord);
 		}
+		// deadinside detected
 		std::vector<Puzir> new_life;
 		puzirMerge(life);
 		for(unsigned int j = 0; j < life.size(); j++)
@@ -104,7 +107,8 @@ int main(int argc, char* argv[])
 		life = new_life;
 		if((i % int(writeInterval/deltaT) == 0) && log)
 		{
-			printLog(i*deltaT, life, life.size());
+			printLog(i*deltaT, life);
+			printFileLog("1.csv", i*deltaT, life);
 		}
 	}
 	printSym(life, dead);

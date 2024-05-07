@@ -1,4 +1,1177 @@
-Survival rate =  22 %
-Average lifetime = 9.375 c
-Dead from walls 33
-Dead from collision 45
+Step 0
+Bubble0 :
+	x = 5.14146
+	y = 1.06772
+	z = 5.07127
+	radius = 0.494433
+
+MERGE
+Step 0.5
+Bubble0 :
+	x = 5.12584
+	y = 1.12378
+	z = 5.06884
+	radius = 0.652725
+
+MERGE
+Step 1
+Bubble0 :
+	x = 5.16664
+	y = 1.19428
+	z = 5.09807
+	radius = 0.677845
+
+MERGE
+Step 1.5
+Bubble0 :
+	x = 5.21063
+	y = 1.26668
+	z = 5.12616
+	radius = 0.689106
+
+MERGE
+Step 2
+Bubble0 :
+	x = 5.17979
+	y = 1.29815
+	z = 5.12517
+	radius = 0.757091
+
+MERGE
+Step 2.5
+Bubble0 :
+	x = 5.14742
+	y = 1.29193
+	z = 5.13574
+	radius = 0.87096
+
+MERGE
+Step 3
+Bubble0 :
+	x = 5.15191
+	y = 1.35309
+	z = 5.17182
+	radius = 0.879467
+
+MERGE
+Step 3.5
+Bubble0 :
+	x = 5.1574
+	y = 1.41036
+	z = 5.20064
+	radius = 0.891866
+
+MERGE
+Step 4
+Bubble0 :
+	x = 5.1258
+	y = 1.38764
+	z = 5.12207
+	radius = 1.01947
+
+MERGE
+Step 4.5
+Bubble0 :
+	x = 5.08258
+	y = 1.38848
+	z = 5.09342
+	radius = 1.124
+
+MERGE
+Step 5
+Bubble0 :
+	x = 5.06093
+	y = 1.45613
+	z = 5.08669
+	radius = 1.12644
+
+MERGE
+Step 5.5
+Bubble0 :
+	x = 5.05759
+	y = 1.46454
+	z = 5.0792
+	radius = 1.22366
+
+MERGE
+Step 6
+Bubble0 :
+	x = 5.06357
+	y = 1.54209
+	z = 5.08501
+	radius = 1.22425
+
+MERGE
+Step 6.5
+Bubble0 :
+	x = 5.0772
+	y = 1.58041
+	z = 5.08248
+	radius = 1.28956
+
+MERGE
+Step 7
+Bubble0 :
+	x = 5.09593
+	y = 1.66721
+	z = 5.08804
+	radius = 1.29457
+
+MERGE
+Step 7.5
+Bubble0 :
+	x = 5.10711
+	y = 1.69854
+	z = 5.07767
+	radius = 1.35255
+
+MERGE
+Step 8
+Bubble0 :
+	x = 5.1249
+	y = 1.78203
+	z = 5.07483
+	radius = 1.35625
+
+MERGE
+Step 8.5
+Bubble0 :
+	x = 5.14334
+	y = 1.81045
+	z = 5.05889
+	radius = 1.40548
+
+MERGE
+Step 9
+Bubble0 :
+	x = 5.17032
+	y = 1.89257
+	z = 5.04808
+	radius = 1.40557
+
+MERGE
+Step 9.5
+Bubble0 :
+	x = 5.18951
+	y = 1.92212
+	z = 5.03773
+	radius = 1.45094
+
+MERGE
+Step 10
+Bubble0 :
+	x = 5.20187
+	y = 1.94903
+	z = 5.02434
+	radius = 1.49433
+
+MERGE
+Step 10.5
+Bubble0 :
+	x = 5.22216
+	y = 2.01985
+	z = 5.01269
+	radius = 1.50114
+
+MERGE
+Step 11
+Bubble0 :
+	x = 5.2359
+	y = 2.03237
+	z = 4.999
+	radius = 1.55458
+
+MERGE
+Step 11.5
+Bubble0 :
+	x = 5.25378
+	y = 2.04701
+	z = 4.99474
+	radius = 1.60443
+
+MERGE
+Step 12
+Bubble0 :
+	x = 5.27099
+	y = 2.08047
+	z = 4.98536
+	radius = 1.63912
+
+MERGE
+Step 12.5
+Bubble0 :
+	x = 5.28769
+	y = 2.10483
+	z = 4.97505
+	radius = 1.68654
+
+MERGE
+Step 13
+Bubble0 :
+	x = 5.30702
+	y = 2.10532
+	z = 4.9579
+	radius = 1.75623
+
+MERGE
+Step 13.5
+Bubble0 :
+	x = 5.34052
+	y = 2.15622
+	z = 4.93789
+	radius = 1.78342
+
+MERGE
+Step 14
+Bubble0 :
+	x = 5.38322
+	y = 2.24031
+	z = 4.91661
+	radius = 1.78362
+
+MERGE
+Step 14.5
+Bubble0 :
+	x = 5.42572
+	y = 2.32325
+	z = 4.89525
+	radius = 1.7846
+
+MERGE
+Step 15
+Bubble0 :
+	x = 5.46651
+	y = 2.39929
+	z = 4.87467
+	radius = 1.79017
+
+MERGE
+Step 15.5
+Bubble0 :
+	x = 5.50986
+	y = 2.48335
+	z = 4.85346
+	radius = 1.79029
+
+MERGE
+Step 16
+Bubble0 :
+	x = 5.52102
+	y = 2.47085
+	z = 4.83788
+	radius = 1.85492
+
+MERGE
+Step 16.5
+Bubble0 :
+	x = 5.55105
+	y = 2.51586
+	z = 4.81834
+	radius = 1.88299
+
+MERGE
+Step 17
+Bubble0 :
+	x = 5.59247
+	y = 2.59521
+	z = 4.7958
+	radius = 1.88855
+
+MERGE
+Step 17.5
+Bubble0 :
+	x = 5.62655
+	y = 2.64278
+	z = 4.77479
+	radius = 1.91207
+
+MERGE
+Step 18
+Bubble0 :
+	x = 5.66498
+	y = 2.69984
+	z = 4.75492
+	radius = 1.92893
+
+MERGE
+Step 18.5
+Bubble0 :
+	x = 5.70416
+	y = 2.75385
+	z = 4.73681
+	radius = 1.9473
+
+Step 19
+Bubble0 :
+	x = 5.75583
+	y = 2.83979
+	z = 4.71408
+	radius = 1.9473
+Bubble1 :
+	x = 5.00165
+	y = 1.04074
+	z = 4.94234
+	radius = 0.447136
+
+MERGE
+Step 19.5
+Bubble0 :
+	x = 5.8075
+	y = 2.92572
+	z = 4.69136
+	radius = 1.9473
+Bubble1 :
+	x = 4.98931
+	y = 1.10368
+	z = 4.9168
+	radius = 0.511473
+
+MERGE
+Step 20
+Bubble0 :
+	x = 5.85918
+	y = 3.01166
+	z = 4.66864
+	radius = 1.9473
+Bubble1 :
+	x = 4.98329
+	y = 1.18712
+	z = 4.91308
+	radius = 0.56507
+
+MERGE
+Step 20.5
+Bubble0 :
+	x = 5.91085
+	y = 3.09759
+	z = 4.64592
+	radius = 1.9473
+Bubble1 :
+	x = 4.97542
+	y = 1.28892
+	z = 4.89461
+	radius = 0.565472
+
+MERGE
+Step 21
+Bubble0 :
+	x = 5.96252
+	y = 3.18353
+	z = 4.62319
+	radius = 1.9473
+Bubble1 :
+	x = 4.97933
+	y = 1.3387
+	z = 4.86539
+	radius = 0.609088
+
+MERGE
+Step 21.5
+Bubble0 :
+	x = 6.01419
+	y = 3.26947
+	z = 4.60047
+	radius = 1.9473
+Bubble1 :
+	x = 4.98353
+	y = 1.35808
+	z = 4.85183
+	radius = 0.669615
+
+MERGE
+Step 22
+Bubble0 :
+	x = 6.06587
+	y = 3.3554
+	z = 4.57775
+	radius = 1.9473
+Bubble1 :
+	x = 4.94778
+	y = 1.34196
+	z = 4.85113
+	radius = 0.793906
+
+MERGE
+Step 22.5
+Bubble0 :
+	x = 6.11754
+	y = 3.44134
+	z = 4.55503
+	radius = 1.9473
+Bubble1 :
+	x = 4.91583
+	y = 1.36388
+	z = 4.85886
+	radius = 0.863679
+
+MERGE
+Step 23
+Bubble0 :
+	x = 6.16921
+	y = 3.52727
+	z = 4.53231
+	radius = 1.9473
+Bubble1 :
+	x = 4.88255
+	y = 1.43016
+	z = 4.84863
+	radius = 0.880243
+
+MERGE
+Step 23.5
+Bubble0 :
+	x = 6.22089
+	y = 3.61321
+	z = 4.50958
+	radius = 1.9473
+Bubble1 :
+	x = 4.84636
+	y = 1.50955
+	z = 4.83309
+	radius = 0.880648
+
+MERGE
+Step 24
+Bubble0 :
+	x = 6.27256
+	y = 3.69914
+	z = 4.48686
+	radius = 1.9473
+Bubble1 :
+	x = 4.8197
+	y = 1.56158
+	z = 4.82907
+	radius = 0.905059
+
+MERGE
+Step 24.5
+Bubble0 :
+	x = 6.32423
+	y = 3.78508
+	z = 4.46414
+	radius = 1.9473
+Bubble1 :
+	x = 4.79294
+	y = 1.61715
+	z = 4.8243
+	radius = 0.924081
+
+MERGE
+Step 25
+Bubble0 :
+	x = 6.3759
+	y = 3.87101
+	z = 4.44142
+	radius = 1.9473
+Bubble1 :
+	x = 4.80316
+	y = 1.60778
+	z = 4.83768
+	radius = 1.00173
+
+MERGE
+Step 25.5
+Bubble0 :
+	x = 6.42758
+	y = 3.95695
+	z = 4.41869
+	radius = 1.9473
+Bubble1 :
+	x = 4.78286
+	y = 1.68765
+	z = 4.82563
+	radius = 1.00392
+
+MERGE
+Step 26
+Bubble0 :
+	x = 6.47925
+	y = 4.04289
+	z = 4.39597
+	radius = 1.9473
+Bubble1 :
+	x = 4.79627
+	y = 1.69615
+	z = 4.82789
+	radius = 1.05655
+
+MERGE
+Step 26.5
+Bubble0 :
+	x = 6.53092
+	y = 4.12882
+	z = 4.37325
+	radius = 1.9473
+Bubble1 :
+	x = 4.81162
+	y = 1.7175
+	z = 4.82673
+	radius = 1.09584
+
+MERGE
+Step 27
+Bubble0 :
+	x = 6.58259
+	y = 4.21476
+	z = 4.35053
+	radius = 1.9473
+Bubble1 :
+	x = 4.83174
+	y = 1.68193
+	z = 4.85933
+	radius = 1.18969
+
+MERGE
+Step 27.5
+Bubble0 :
+	x = 6.63427
+	y = 4.30069
+	z = 4.32781
+	radius = 1.9473
+Bubble1 :
+	x = 4.82872
+	y = 1.7415
+	z = 4.86613
+	radius = 1.20104
+
+MERGE
+Step 28
+Bubble0 :
+	x = 6.68594
+	y = 4.38663
+	z = 4.30508
+	radius = 1.9473
+Bubble1 :
+	x = 4.82561
+	y = 1.79515
+	z = 4.87228
+	radius = 1.21566
+
+MERGE
+Step 28.5
+Bubble0 :
+	x = 6.73761
+	y = 4.47256
+	z = 4.28236
+	radius = 1.9473
+Bubble1 :
+	x = 4.81812
+	y = 1.7618
+	z = 4.90128
+	radius = 1.2973
+
+MERGE
+Step 29
+Bubble0 :
+	x = 6.78929
+	y = 4.5585
+	z = 4.25964
+	radius = 1.9473
+Bubble1 :
+	x = 4.81107
+	y = 1.73975
+	z = 4.92327
+	radius = 1.38152
+
+MERGE
+Step 29.5
+Bubble0 :
+	x = 6.84096
+	y = 4.64443
+	z = 4.23692
+	radius = 1.9473
+Bubble1 :
+	x = 4.7903
+	y = 1.79243
+	z = 4.93388
+	radius = 1.39804
+
+MERGE
+Step 30
+Bubble0 :
+	x = 6.89263
+	y = 4.73037
+	z = 4.21419
+	radius = 1.9473
+Bubble1 :
+	x = 4.7651
+	y = 1.86243
+	z = 4.94267
+	radius = 1.39809
+
+MERGE
+Step 30.5
+Bubble0 :
+	x = 6.9443
+	y = 4.81631
+	z = 4.19147
+	radius = 1.9473
+Bubble1 :
+	x = 4.74282
+	y = 1.92642
+	z = 4.95144
+	radius = 1.40291
+
+MERGE
+Step 31
+Bubble0 :
+	x = 6.99598
+	y = 4.90224
+	z = 4.16875
+	radius = 1.9473
+Bubble1 :
+	x = 4.72522
+	y = 1.96983
+	z = 4.96359
+	radius = 1.42246
+
+MERGE
+Step 31.5
+Bubble0 :
+	x = 7.04765
+	y = 4.98818
+	z = 4.14603
+	radius = 1.9473
+Bubble1 :
+	x = 4.73299
+	y = 1.92858
+	z = 4.96967
+	radius = 1.50697
+
+MERGE
+Step 32
+Bubble0 :
+	x = 7.09932
+	y = 5.07411
+	z = 4.1233
+	radius = 1.9473
+Bubble1 :
+	x = 4.73695
+	y = 1.92259
+	z = 4.9728
+	radius = 1.5699
+
+MERGE
+Step 32.5
+Bubble0 :
+	x = 7.15099
+	y = 5.16005
+	z = 4.10058
+	radius = 1.9473
+Bubble1 :
+	x = 4.73335
+	y = 1.94121
+	z = 4.98257
+	radius = 1.61521
+
+MERGE
+Step 33
+Bubble0 :
+	x = 7.20267
+	y = 5.24598
+	z = 4.07786
+	radius = 1.9473
+Bubble1 :
+	x = 4.72609
+	y = 1.9781
+	z = 4.992
+	radius = 1.6422
+
+MERGE
+Step 33.5
+Bubble0 :
+	x = 7.25434
+	y = 5.33192
+	z = 4.05514
+	radius = 1.9473
+Bubble1 :
+	x = 4.7153
+	y = 2.03166
+	z = 5.00116
+	radius = 1.65368
+
+MERGE
+Step 34
+Bubble0 :
+	x = 7.30601
+	y = 5.41785
+	z = 4.03242
+	radius = 1.9473
+Bubble1 :
+	x = 4.7034
+	y = 2.09038
+	z = 5.00944
+	radius = 1.66018
+
+MERGE
+Step 34.5
+Bubble0 :
+	x = 7.35768
+	y = 5.50379
+	z = 4.00969
+	radius = 1.9473
+Bubble1 :
+	x = 4.70211
+	y = 2.13322
+	z = 5.01902
+	radius = 1.67796
+
+MERGE
+Step 35
+Bubble0 :
+	x = 7.40936
+	y = 5.58973
+	z = 3.98697
+	radius = 1.9473
+Bubble1 :
+	x = 4.71554
+	y = 2.12508
+	z = 5.02304
+	radius = 1.73541
+
+MERGE
+Step 35.5
+Bubble0 :
+	x = 7.46103
+	y = 5.67566
+	z = 3.96425
+	radius = 1.9473
+Bubble1 :
+	x = 4.72307
+	y = 2.14508
+	z = 5.02478
+	radius = 1.77803
+
+MERGE
+Step 36
+Bubble0 :
+	x = 7.5127
+	y = 5.7616
+	z = 3.94153
+	radius = 1.9473
+Bubble1 :
+	x = 4.72744
+	y = 2.19228
+	z = 5.03048
+	radius = 1.79767
+
+MERGE
+Step 36.5
+Bubble0 :
+	x = 7.56438
+	y = 5.84753
+	z = 3.9188
+	radius = 1.9473
+Bubble1 :
+	x = 4.72719
+	y = 2.25358
+	z = 5.03708
+	radius = 1.80561
+
+MERGE
+Step 37
+Bubble0 :
+	x = 7.61605
+	y = 5.93347
+	z = 3.89608
+	radius = 1.9473
+Bubble1 :
+	x = 4.72662
+	y = 2.31528
+	z = 5.04415
+	radius = 1.81315
+
+MERGE
+Step 37.5
+Bubble0 :
+	x = 7.66772
+	y = 6.0194
+	z = 3.87336
+	radius = 1.9473
+Bubble1 :
+	x = 4.72648
+	y = 2.37307
+	z = 5.05246
+	radius = 1.82323
+
+MERGE
+Step 38
+Bubble0 :
+	x = 7.71939
+	y = 6.10534
+	z = 3.85064
+	radius = 1.9473
+Bubble1 :
+	x = 4.72333
+	y = 2.44533
+	z = 5.06125
+	radius = 1.82325
+
+MERGE
+Step 38.5
+Bubble0 :
+	x = 7.77107
+	y = 6.19128
+	z = 3.82792
+	radius = 1.9473
+Bubble1 :
+	x = 4.72653
+	y = 2.46873
+	z = 5.07228
+	radius = 1.8538
+
+MERGE
+Step 39
+Bubble0 :
+	x = 7.82274
+	y = 6.27721
+	z = 3.80519
+	radius = 1.9473
+Bubble1 :
+	x = 4.72388
+	y = 2.5184
+	z = 5.08484
+	radius = 1.8666
+
+MERGE
+Step 39.5
+Bubble0 :
+	x = 7.87441
+	y = 6.36315
+	z = 3.78247
+	radius = 1.9473
+Bubble1 :
+	x = 4.72365
+	y = 2.56884
+	z = 5.09539
+	radius = 1.87929
+
+MERGE
+Step 40
+Bubble0 :
+	x = 7.92608
+	y = 6.44908
+	z = 3.75975
+	radius = 1.9473
+Bubble1 :
+	x = 4.71972
+	y = 2.63951
+	z = 5.10711
+	radius = 1.87941
+
+MERGE
+Step 40.5
+Bubble0 :
+	x = 7.97776
+	y = 6.53502
+	z = 3.73703
+	radius = 1.9473
+Bubble1 :
+	x = 4.7169
+	y = 2.70537
+	z = 5.11841
+	radius = 1.88234
+
+MERGE
+Step 41
+Bubble0 :
+	x = 8.02943
+	y = 6.62095
+	z = 3.7143
+	radius = 1.9473
+Bubble1 :
+	x = 4.71849
+	y = 2.73946
+	z = 5.12708
+	radius = 1.90369
+
+MERGE
+Step 41.5
+Bubble0 :
+	x = 4.71716
+	y = 2.75325
+	z = 5.1342
+	radius = 1.93578
+
+MERGE
+Step 42
+Bubble0 :
+	x = 4.72383
+	y = 2.75654
+	z = 5.13976
+	radius = 1.9758
+
+MERGE
+Step 42.5
+Bubble0 :
+	x = 4.72057
+	y = 2.80234
+	z = 5.14731
+	radius = 1.99123
+
+MERGE
+Step 43
+Bubble0 :
+	x = 4.71306
+	y = 2.87515
+	z = 5.15701
+	radius = 1.9913
+
+MERGE
+Step 43.5
+Bubble0 :
+	x = 4.7059
+	y = 2.94488
+	z = 5.16668
+	radius = 1.99305
+
+MERGE
+Step 44
+Bubble0 :
+	x = 4.69929
+	y = 2.99929
+	z = 5.17504
+	radius = 2.0031
+
+MERGE
+Step 44.5
+Bubble0 :
+	x = 4.7031
+	y = 2.96488
+	z = 5.16823
+	radius = 2.06234
+
+Step 45
+Bubble0 :
+	x = 4.68989
+	y = 3.04366
+	z = 5.17134
+	radius = 2.06234
+Bubble1 :
+	x = 5.16726
+	y = 1.03638
+	z = 5.01409
+	radius = 0.297852
+
+MERGE
+Step 45.5
+Bubble0 :
+	x = 5.33452
+	y = 1.07275
+	z = 5.02818
+	radius = 0.297852
+Bubble1 :
+	x = 4.68027
+	y = 3.10116
+	z = 5.17417
+	radius = 2.07327
+
+Step 46
+Bubble0 :
+	x = 5.50178
+	y = 1.10913
+	z = 5.04227
+	radius = 0.297852
+Bubble1 :
+	x = 4.6674
+	y = 3.18015
+	z = 5.1788
+	radius = 2.07327
+Bubble2 :
+	x = 5.12487
+	y = 1.13664
+	z = 5.17002
+	radius = 0.106842
+
+Step 46.5
+Bubble0 :
+	x = 5.66904
+	y = 1.1455
+	z = 5.05637
+	radius = 0.297852
+Bubble1 :
+	x = 4.65452
+	y = 3.25914
+	z = 5.18343
+	radius = 2.07327
+Bubble2 :
+	x = 5.24975
+	y = 1.27328
+	z = 5.34004
+	radius = 0.106842
+Bubble3 :
+	x = 4.93168
+	y = 1.05843
+	z = 5.05547
+	radius = 0.0329059
+
+MERGE
+Step 47
+Bubble0 :
+	x = 5.8363
+	y = 1.18188
+	z = 5.07046
+	radius = 0.297852
+Bubble1 :
+	x = 4.64165
+	y = 3.33813
+	z = 5.18806
+	radius = 2.07327
+Bubble2 :
+	x = 5.37462
+	y = 1.40992
+	z = 5.51006
+	radius = 0.106842
+Bubble3 :
+	x = 4.89137
+	y = 1.11849
+	z = 5.03407
+	radius = 0.212724
+
+Step 47.5
+Bubble0 :
+	x = 6.00356
+	y = 1.21825
+	z = 5.08455
+	radius = 0.297852
+Bubble1 :
+	x = 4.62877
+	y = 3.41712
+	z = 5.19269
+	radius = 2.07327
+Bubble2 :
+	x = 5.49949
+	y = 1.54656
+	z = 5.68008
+	radius = 0.106842
+Bubble3 :
+	x = 4.78437
+	y = 1.23559
+	z = 5.06682
+	radius = 0.212724
+Bubble4 :
+	x = 5.05552
+	y = 1.13933
+	z = 5.03913
+	radius = 0.0468493
+
+MERGE
+Step 48
+Bubble0 :
+	x = 6.17081
+	y = 1.25463
+	z = 5.09864
+	radius = 0.297852
+Bubble1 :
+	x = 4.6159
+	y = 3.49611
+	z = 5.19732
+	radius = 2.07327
+Bubble2 :
+	x = 5.62437
+	y = 1.6832
+	z = 5.85011
+	radius = 0.106842
+Bubble3 :
+	x = 4.67737
+	y = 1.35269
+	z = 5.09956
+	radius = 0.212724
+Bubble4 :
+	x = 4.92808
+	y = 1.02169
+	z = 4.88524
+	radius = 0.415459
+
+MERGE
+Step 48.5
+Bubble0 :
+	x = 6.33807
+	y = 1.291
+	z = 5.11273
+	radius = 0.297852
+Bubble1 :
+	x = 4.60302
+	y = 3.5751
+	z = 5.20195
+	radius = 2.07327
+Bubble2 :
+	x = 5.74924
+	y = 1.81984
+	z = 6.02013
+	radius = 0.106842
+Bubble3 :
+	x = 4.57037
+	y = 1.46979
+	z = 5.13231
+	radius = 0.212724
+Bubble4 :
+	x = 4.85547
+	y = 1.04164
+	z = 4.77001
+	radius = 0.415512
+
+MERGE
+Step 49
+Bubble0 :
+	x = 6.50533
+	y = 1.32738
+	z = 5.12682
+	radius = 0.297852
+Bubble1 :
+	x = 5.87411
+	y = 1.95648
+	z = 6.19015
+	radius = 0.106842
+Bubble2 :
+	x = 4.78284
+	y = 1.06159
+	z = 4.65476
+	radius = 0.415512
+Bubble3 :
+	x = 5.09092
+	y = 1.00975
+	z = 5.11345
+	radius = 0.241332
+Bubble4 :
+	x = 4.58883
+	y = 3.63255
+	z = 5.20614
+	radius = 2.08415
+
+Step 49.5
+Bubble0 :
+	x = 6.67259
+	y = 1.36376
+	z = 5.14091
+	radius = 0.297852
+Bubble1 :
+	x = 5.99899
+	y = 2.09312
+	z = 6.36017
+	radius = 0.106842
+Bubble2 :
+	x = 4.71021
+	y = 1.08155
+	z = 4.53951
+	radius = 0.415512
+Bubble3 :
+	x = 5.18184
+	y = 1.0195
+	z = 5.2269
+	radius = 0.241332
+Bubble4 :
+	x = 4.57497
+	y = 3.71193
+	z = 5.21107
+	radius = 2.08415
+Bubble5 :
+	x = 4.95205
+	y = 1.03878
+	z = 4.99913
+	radius = 0.0595925
+
+Survival rate =  85.7143 %
+Average lifetime = 12.2143 c
+Dead from walls 1
+Dead from collision 0

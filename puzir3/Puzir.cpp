@@ -29,7 +29,7 @@ Puzir::Puzir(double _VM, std::vector<int> dir, std::vector<double> _cord, std::v
 Puzir::Puzir(Puzir B1, Puzir B2)
 {
 	timeLife = B1.timeLife;
-	cause = 'C';
+	cause = 'c';
 	mass = B1.mass + B2.mass;
 	for(int i = 0; i < 3; i++)
 	{
