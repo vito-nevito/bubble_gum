@@ -12,6 +12,7 @@ private:
 	double timeLife;
 	char cause;
 	double mass;
+	double temperature;
 
 public:
 
@@ -21,7 +22,9 @@ public:
 
 	std::vector<double> getData();
 
-	double getTime();
+	double getTime() {return timeLife;};
+
+	double getTemp() {return temperature;};
 
 	void setCord(std::vector<double> _cord);
 
@@ -31,7 +34,7 @@ public:
 
 	void addTime(double delta);
 
-	char getCause();
+	char getCause() {return cause;};
 
 	double getMass() {return mass;};
 };

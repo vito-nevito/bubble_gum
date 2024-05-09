@@ -24,6 +24,7 @@ Puzir::Puzir(double _VM, std::vector<int> dir, std::vector<double> _cord, std::v
 
 	radius = ((double)rand()/RAND_MAX)*(radInt[1] - radInt[0]) + radInt[0];
 	mass = radius * radius;
+	temperature = 5000 * std::pow(radius, 3);
 };
 
 Puzir::Puzir(Puzir B1, Puzir B2)
@@ -39,6 +40,7 @@ Puzir::Puzir(Puzir B1, Puzir B2)
 		velocity.push_back(v);
 	}
 	radius = sqrt(mass);
+	temperature = 5000 * std::pow(radius, 3);
 }
 
 std::vector<double> Puzir::getData()
@@ -50,11 +52,6 @@ std::vector<double> Puzir::getData()
 	}
 	temp.push_back(radius);
 	return temp;
-};
-	
-double Puzir::getTime()
-{
-		return timeLife;
 };
 
 void Puzir::setCord(std::vector<double> _cord)
@@ -103,11 +100,6 @@ bool Puzir::getStatusR(std::vector<double> len)
 void Puzir::addTime(double delta)
 {
 	timeLife += delta;
-};
-
-char Puzir::getCause()
-{
-	return cause;
 };
 
 void puzirMerge(std::vector<Puzir>& data)

@@ -1,0 +1,9 @@
+BUBBLEGUM HELP
+
+-l: output information about each step on standart input
+
+-d: output summary about each step on file
+
+-h: help
+
+END

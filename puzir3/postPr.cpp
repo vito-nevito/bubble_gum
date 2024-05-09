@@ -23,15 +23,19 @@ void printSym(std::vector<Puzir> life, std::vector<Puzir> dead)
 	double rate = (double)life.size()/(life.size() + dead.size()) * 100;
 	std::cout << "Survival rate =  " << rate << " %" << std::endl;
 	double symTime = 0;
+	double symTemp = 0;
 	for(unsigned int i = 0; i < life.size(); i++)
 	{
 		symTime += life[i].getTime();
+		symTemp += life[i].getTemp();
 	}
 	for(unsigned int i = 0; i < dead.size(); i++)
 	{
 		symTime += dead[i].getTime();
+		symTemp += dead[i].getTemp();
 	}
 	std::cout << "Average lifetime = " << symTime/(life.size() + dead.size()) << " c" << std::endl;
+	std::cout << "Average temperature = "<< symTemp/(life.size() + dead.size()) << " K" << std::endl;
 	int countW = 0;
 	for(unsigned int i = 0; i < dead.size(); i++)
 	{
@@ -49,7 +53,7 @@ void printFileLog(std::string file_name, double time, std::vector<Puzir> data)
 	if(time == 0.)
 	{
 		file.open(file_name,std::ios::out | std::ios::trunc);
-		file << "time," << "avRad," << "maxRad" << "\n";
+		file << "time," << "avRad," << "maxRad," << "avTemp," << "avMass" << "\n";
 	}
 	else
 	{
@@ -57,16 +61,22 @@ void printFileLog(std::string file_name, double time, std::vector<Puzir> data)
 
 	}
 	std::vector<double> Rad;
+	std::vector<double> Temp;
+	std::vector<double> Mass;
 
 	for(unsigned int i = 0; i < data.size(); i++)
 	{
 		Rad.push_back((data[i].getData())[6]);
+		Temp.push_back(data[i].getTemp());
+		Mass.push_back(data[i].getMass());
 	}
 	if(file.is_open())
 	{
 		file << time << ",";
 		file << std::accumulate(Rad.begin(), Rad.end(), 0.0)/data.size() << ",";
-		file << *std::max_element(Rad.begin(), Rad.end()) << "\n";
+		file << *std::max_element(Rad.begin(), Rad.end()) << ",";
+		file << std::accumulate(Temp.begin(), Temp.end(), 0.0)/data.size() << ",";
+		file << std::accumulate(Mass.begin(), Mass.end(), 0.0)/data.size() << "\n";
 	}
 	file.close();
 };

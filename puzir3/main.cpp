@@ -1,18 +1,45 @@
 #include<iostream>
 #include<ctime>
 #include<vector>
+#include<map>
 #include "postPr.h"
 #include "Puzir.h"
 #include "prePr.h"
 #include "Room.h"
 
+void getFlags(std::map<char, bool>& flags, int argc, char* argv[])
+{
+	for(int i = 1;  i < argc; i++)
+	{
+		if(argv[i][0] == '-')
+		{
+			flags[argv[i][1]]++;
+		}
+	}
+};
+
 int main(int argc, char* argv[])
 {
-	bool log = 0;
-	if(argc > 1 && argv[1][0] == '-' && argv[1][1] == 'l')
+	std::map<char, bool> flags
 	{
-		log = 1;
+		{'l', 0}, {'d', 0}, {'h', 0}
+	};
+	getFlags(flags, argc, argv);
+	if(flags['h'] > 0)
+	{
+		std::ifstream file;
+		file.open("puzir_help");
+		std::string temp;
+		while(!file.eof())
+		{
+			getline(file, temp);
+			std::cout << temp << std::endl;
+		}
+		file.close();
+		return 0;
 	}
+	std::string dataFile = "1.csv";
+
 	srand(time(0));
 	std::vector<double> lenRoom {10.0, 10.0, 10.0};
 	std::vector<double> startPoint {5.0, 1, 5.0};
@@ -105,10 +132,13 @@ int main(int argc, char* argv[])
 			}
 		}
 		life = new_life;
-		if((i % int(writeInterval/deltaT) == 0) && log)
+		if((i % int(writeInterval/deltaT) == 0) && flags['l'])
 		{
 			printLog(i*deltaT, life);
-			printFileLog("1.csv", i*deltaT, life);
+		}
+		if(flags['d'])
+		{
+			printFileLog(dataFile, i*deltaT, life);
 		}
 	}
 	printSym(life, dead);
