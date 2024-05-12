@@ -97,13 +97,13 @@ void getScreenSalome(std::string fileName, std::vector<Puzir> data, std::vector<
 		<< data[i].getRad() 
 		<< ")\ngeompy.TranslateDXDYDZ(Sphere_"
 		<< i << ", " << cord[0]<< ", " << cord[1] << ", " << cord[2]
-	        << ")\nSphere_" << i << ".setColor(SALOMEEDS(0, 1, 1))\n"
+	        << ")\nSphere_" << i << ".SetColor(SALOMEEDS(0, 1, 1))\n"
 		<< "geompy.addToStudy(Sphere_" << i << ", 'Bubble_" << i << "' )\n";
 	}
 	// add source
 	file << "Vertex_1 = geompy.MakeVertex(" 
 		<< point[0] << ", " << point[1] << ", " << point[2] << ")\n"
-		<< "Vertex_1.setColor(SALOMEEDS(1, 0, 0))\n"
+		<< "Vertex_1.SetColor(SALOMEEDS(1, 0, 0))\n"
 		<< "geompy.addToStudy(Vertex_1, 'Source' )\n";
 	// add walls
 	for(int i = 0; i < 3; i++)
@@ -111,7 +111,7 @@ void getScreenSalome(std::string fileName, std::vector<Puzir> data, std::vector<
 		file << "Face_" << i
 		<< " = geompy.MakeFaceHW(" 
 		<< lenRoom[i] << ", " << lenRoom[(i+1)%3] << ", " << i + 1
-		<< ")\nFace_" << i << ".setColor(SALOMEEDS(0.666667, 0.333333, 0))\n";
+		<< ")\nFace_" << i << ".SetColor(SALOMEEDS(0.666667, 0.333333, 0))\n";
 	}
 	file << "geompy.TranslateDXDYDZ(Face_0, "  << lenRoom[0]/2 << ", " << lenRoom[1]/2
 	       	<< ", 0)\n";
