@@ -128,7 +128,7 @@ int main(int argc, char* argv[])
 		{
 			printFileLog(dataFile, i*deltaT, life);
 		}
-		if(N == 50)
+		if(i == 50)
 		{
 			getScreenSalome("one.py", life, startPoint, lenRoom);
 		}
