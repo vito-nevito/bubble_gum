@@ -16,6 +16,6 @@ void printSym(std::vector<Puzir> life, std::vector<Puzir> dead);
 
 void printFileLog(std::string file_name, double time, std::vector<Puzir> data);
 
-void getScreenSalome(std::string fileName, std::vector<Puzir> data);
+void getScreenSalome(std::string fileName, std::vector<Puzir> data, std::vector<double> point, std::vector<double> lenRoom);
 
 #endif

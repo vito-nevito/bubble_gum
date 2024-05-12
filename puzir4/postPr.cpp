@@ -77,7 +77,7 @@ void printFileLog(std::string file_name, double time, std::vector<Puzir> data)
 	file.close();
 };
 
-void getScreenSalome(std::string fileName, std::vector<Puzir> data)
+void getScreenSalome(std::string fileName, std::vector<Puzir> data, std::vector<double> point, std::vector<double> lenRoom)
 {
 	std::fstream file(fileName, std::ios::out | std::ios::trunc);
 	std::fstream vis("salomeVis");
@@ -88,6 +88,7 @@ void getScreenSalome(std::string fileName, std::vector<Puzir> data)
 		getline(vis, temp);
 		file << temp << "\n";
 	}
+	// add bubbles
 	for(unsigned int i = 0; i < data.size(); i++)
 	{
 		std::vector<double> cord = data[i].getCord();
@@ -95,8 +96,32 @@ void getScreenSalome(std::string fileName, std::vector<Puzir> data)
 		<< " = geompy.MakeSphereR(" 
 		<< data[i].getRad() 
 		<< ")\ngeompy.TranslateDXDYDZ(Sphere_"
-		<< i << ", " << cord[0]<< ", " << cord[1] << ", " << cord[2] 
-		<< ")\ngeompy.addToStudy( Sphere_" << i << ", 'Sphere_" << i << "' )\n";
+		<< i << ", " << cord[0]<< ", " << cord[1] << ", " << cord[2]
+	        << ")\nSphere_" << i << ".setColour(SALOMEEDS(0, 1, 1))\n"
+		<< "geompy.addToStudy(Sphere_" << i << ", 'Bubble_" << i << "' )\n";
+	}
+	// add source
+	file << "Vertex_1 = geompy.MakeVertex(" 
+		<< point[0] << ", " << point[1] << ", " << point[2] << ")\n"
+		<< "Vertex_1.setColour(SALOMEEDS(1, 0, 0))\n"
+		<< "geompy.addToStudy(Vertex_1, 'Source' )\n";
+	// add walls
+	for(int i = 0; i < 3; i++)
+	{
+		file << "Face_" << i
+		<< " = geompy.MakeFaceHW(" 
+		<< lenRoom[i] << ", " << lenRoom[(i+1)%3] << ", " << i + 1
+		<< ")\nFace_" << i << ".setColour(SALOMEEDS(0.666667, 0.333333, 0))\n";
+	}
+	file << "geompy.TranslateDXDYDZ(Face_0, "  << lenRoom[0]/2 << ", " << lenRoom[1]/2
+	       	<< ", 0)\n";
+	file << "geompy.TranslateDXDYDZ(Face_1, 0, "  << lenRoom[1]/2 << ", " << lenRoom[2]/2
+	       	<< ")\n";
+	file << "geompy.TranslateDXDYDZ(Face_2, "  << lenRoom[0]/2 << ", 0, " << lenRoom[1]/2
+	       	<< ")\n";
+	for(int i = 0; i < 3; i++)
+	{
+		file << "geompy.addToStudy(Face_" << i << ", 'Wall_" << i << "' )\n";
 	}
 	for(int i = 33; i < 43; i++)
 	{

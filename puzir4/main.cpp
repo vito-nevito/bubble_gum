@@ -130,5 +130,5 @@ int main(int argc, char* argv[])
 		}
 	}
 	printSym(life, dead);
-	getScreenSalome("one.py", life);
+	getScreenSalome("one.py", life, startPoint, lenRoom);
 };
