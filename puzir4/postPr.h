@@ -18,5 +18,6 @@ void printFileLog(std::string file_name, double time, std::vector<Puzir> data);
 
 void getScreenSalome(std::string fileName, std::vector<Puzir> data, std::vector<double> point, std::vector<double> lenRoom);
 
-void getScreenPython(std::vector<Puzir> data, int i);
+void getScreenPython(std::vector<Puzir> data, int i, std::vector<double> point, std::vector<double> lenRoom);
+
 #endif

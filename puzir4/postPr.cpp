@@ -132,7 +132,7 @@ void getScreenSalome(std::string fileName, std::vector<Puzir> data, std::vector<
 	file.close();
 };
 
-void getScreenPython(std::vector<Puzir> data, int i)
+void getScreenPython(std::vector<Puzir> data, int i, std::vector<double> point, std::vector<double> lenRoom)
 {
 	std::string fileName = "visP/" + std::to_string(i);
 	fileName += ".csv";
@@ -148,11 +148,13 @@ void getScreenPython(std::vector<Puzir> data, int i)
 			c = 1;
 		}
 		file << cord[0] << "," << cord[1] << "," << cord[2] << ","
-		<< c << "\n";
+		<< data[i].getRad() << "," << c << "\n";
 	}
 	file.close();
 
 	file.open("visP/info", std::ios::out | std::ios::trunc);
-	file << i+1 << "\n";
+	file << i+1 << "\n"
+		<< point[0] << " " << point[1] << " " << point[2] << "\n"
+		<< lenRoom[0] << " " << lenRoom[1] << " " << lenRoom[2] << "\n";
 	file.close();
 };

@@ -110,7 +110,7 @@ int main(int argc, char* argv[])
 		if(flags['p'])
 		{
 
-			getScreenPython(life, i);
+			getScreenPython(life, i, startPoint, lenRoom);
 		}
 	}
 	printSym(life, dead);
