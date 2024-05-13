@@ -30,7 +30,7 @@ def update(num, ax, lenRoom, point):
     theta = np.linspace(0, 2 * np.pi, 100)
     phi, theta = np.meshgrid(phi, theta)
     
-    file_name = "visP/" + str(num) + ".csv"
+    file_name = str(num) + ".csv"
     
     data = pd.read_csv(file_name)
     
@@ -48,7 +48,7 @@ def update(num, ax, lenRoom, point):
 N = 0
 lenRoom = 0
 point = 0
-with open("visP/info") as file:
+with open("info") as file:
     line = file.readline()
     N = int(line)
     line = file.readline()
