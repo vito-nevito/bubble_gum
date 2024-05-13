@@ -80,7 +80,7 @@ void printFileLog(std::string file_name, double time, std::vector<Puzir> data)
 void getScreenSalome(std::string fileName, std::vector<Puzir> data, std::vector<double> point, std::vector<double> lenRoom)
 {
 	std::fstream file(fileName, std::ios::out | std::ios::trunc);
-	std::fstream vis("salomeVis");
+	std::fstream vis("visS/salomeVis");
 	std::string temp;
 	for(int i = 0; i < 33; i++)
 	{
@@ -129,5 +129,30 @@ void getScreenSalome(std::string fileName, std::vector<Puzir> data, std::vector<
 		getline(vis, temp);
 		file << temp << "\n";
 	}
+	file.close();
+};
+
+void getScreenPython(std::vector<Puzir> data, int i)
+{
+	std::string fileName = "visP/" + std::to_string(i);
+	fileName += ".csv";
+	std::fstream file(fileName, std::ios::out | std::ios::trunc);
+	file << "x,y,z,r,c\n";
+	for(unsigned int i = 0; i < data.size(); i++)
+	{
+		std::vector<double> cord = data[i].getCord();
+		double charge = data[i].getCharge();
+		int c = 0;
+		if(charge > 0)
+		{
+			c = 1;
+		}
+		file << cord[0] << "," << cord[1] << "," << cord[2] << ","
+		<< c << "\n";
+	}
+	file.close();
+
+	file.open("visP/info", std::ios::out | std::ios::trunc);
+	file << i+1 << "\n";
 	file.close();
 };

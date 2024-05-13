@@ -23,13 +23,14 @@ int main(int argc, char* argv[])
 {
 	std::map<char, bool> flags
 	{
-		{'l', 0}, {'d', 0}, {'h', 0}
+		{'l', 0}, {'d', 0}, {'h', 0},
+		{'s', 0}, {'p', 0}
 	};
 	getFlags(flags, argc, argv);
 	if(flags['h'] > 0)
 	{
 		std::ifstream file;
-		file.open("puzir_help");
+		file.open("post/puzir_help");
 		std::string temp;
 		while(!file.eof())
 		{
@@ -39,13 +40,15 @@ int main(int argc, char* argv[])
 		file.close();
 		return 0;
 	}
-	std::string dataFile = "1.csv";
+
+	std::string dataFile = "post/log.csv";
 
 	srand(time(0));
 	std::vector<double> lenRoom {10.0, 10.0, 10.0};
 	std::vector<double> startPoint {5.0, 1, 5.0};
 	std::vector<double> radInt{0, 0.5};
 	int N = 100;
+	int M = 10;
 	double VM = 0.5;
 	std::vector<int> dir {0, 1, 0};
 	double deltaT = 0.5;
@@ -56,37 +59,9 @@ int main(int argc, char* argv[])
 	tFunc* T = new LinearT({300, 10 ,10});
 	Room myRoom(lenRoom, 300, 0.0,  T, {0, 0, 9.84});
 
-	if(argc > 1)
-	{
-		std::string dataS = "\0";
-		for(int i = 1;  i < argc; i++)
-		{
-			if(argv[i][0] != '-')
-			{
-				dataS = std::string(argv[i]);
-			}
-		}
-		if(dataS != "\0")
-		{
-			std::vector<double> data = preProc(dataS);
-			for(int i = 0; i < 3; i++)
-			{
-				lenRoom[i] = data[i];
-				startPoint[i] = data[i + 3];
-				dir[i] = data[i + 10];
-			}
-			radInt[0] = data[6]; radInt[1] =  data[7];
-			N = data[8];
-			VM = data[9];
-			deltaT = data[13];
-			writeInterval = data[14];
-	
-		}
-	}
-
 	std::vector<Puzir> life;
 	std::vector<Puzir> dead;
-	for(int i = 0; i < N + 10; i++)
+	for(int i = 0; i < N + M; i++)
 	{
 		// calc new cordinates
 		for(Puzir& j : life )
@@ -128,11 +103,19 @@ int main(int argc, char* argv[])
 		{
 			printFileLog(dataFile, i*deltaT, life);
 		}
-		if(i == 50)
+		if(i == 50 && flags['s'])
 		{
-			getScreenSalome("one.py", life, startPoint, lenRoom);
+			getScreenSalome("visS/i50.py", life, startPoint, lenRoom);
+		}
+		if(flags['p'])
+		{
+
+			getScreenPython(life, i);
 		}
 	}
 	printSym(life, dead);
-	getScreenSalome("finaly.py", life, startPoint, lenRoom);
+	if(flags['s'])
+	{
+		getScreenSalome("visS/finaly.py", life, startPoint, lenRoom);
+	}
 };
