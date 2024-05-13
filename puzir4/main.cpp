@@ -57,7 +57,7 @@ int main(int argc, char* argv[])
 	double CM = 1;
 	// relate to temperature
 	tFunc* T = new LinearT({300, 10 ,10});
-	Room myRoom(lenRoom, 300, 0.0,  T, {0, 0, 9.84});
+	Room myRoom(lenRoom, 300, 0,  T, {0, 0, 0});
 
 	std::vector<Puzir> life;
 	std::vector<Puzir> dead;

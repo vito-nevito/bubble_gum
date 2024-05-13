@@ -9,7 +9,7 @@ void calcCord(double deltaT, Room room, Puzir& p)
 	std::vector<double> oldCord = p.getCord();
 	// calc velocity vith convection
 	std::vector<double> outVel;
-	for(int i = 0; i < 3; i++)
+	for(int i = 0; i < 2; i++)
 	{
 		outVel.push_back(vel[i]);
 	}
@@ -31,12 +31,13 @@ void  calcVel(double deltaT, Puzir& p)
 	{
 		newVel.push_back(p.getVel()[i] + deltaT * p.getAccel()[i]);
 	};
+	p.setVel(newVel);
 };
 
 void  calcAccel(std::vector<Puzir> array, Puzir& p, Room room)
 {
 	// electrostatic constant
-	double K = 0.1;
+	double K = 0;
 
 	std::vector<double> pCord = p.getCord();
 	double pQ = p.getCharge();
@@ -54,9 +55,13 @@ void  calcAccel(std::vector<Puzir> array, Puzir& p, Room room)
 		dist = std::pow(dist, 3./2);
 		for(int i = 0; i < 3; i++)
 		{
-			newAccel[i] += (K * pQ * tempQ * (pCord[i] - tempCord[i]) / dist) + room.getGrav()[i];
+			newAccel[i] += (K * pQ * tempQ * (pCord[i] - tempCord[i]) / dist);
 		}
 		}
-	};
+	}
+	for(int i = 0; i < 3; i++)
+	{
+		newAccel[i] += room.getGrav()[i];
+	}
 	p.setAccel(newAccel);
 };
