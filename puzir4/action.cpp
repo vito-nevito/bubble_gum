@@ -37,7 +37,7 @@ void  calcVel(double deltaT, Puzir& p)
 void  calcAccel(std::vector<Puzir> array, Puzir& p, Room room)
 {
 	// electrostatic constant
-	double K = 0;
+	double K = room.getK();
 
 	std::vector<double> pCord = p.getCord();
 	double pQ = p.getCharge();
@@ -59,9 +59,11 @@ void  calcAccel(std::vector<Puzir> array, Puzir& p, Room room)
 		}
 		}
 	}
+	std::vector<double> pVel = p.getVel();
 	for(int i = 0; i < 3; i++)
 	{
 		newAccel[i] += room.getGrav()[i];
+		newAccel[i] -= room.getVisc() * pVel[i];
 	}
 	p.setAccel(newAccel);
 };

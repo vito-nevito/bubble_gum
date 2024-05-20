@@ -22,18 +22,25 @@ protected:
 	double TWall;
 	// coeff convection
 	double alpha;
+	// coeff viscosity
+	double visc;
+	double K;
 	std::vector<double> gravity;
 	tFunc* Temperature = nullptr;
 
 public:
-	Room(std::vector<double> _size, double _TW, double _alpha, tFunc* _T, std::vector<double> accel)
-		: size(_size), TWall(_TW), alpha(_alpha), gravity(accel), Temperature(_T) {};
+	Room(std::vector<double> _size, double _TW, double _alpha, double _visc, double _K, tFunc* _T, std::vector<double> accel)
+		: size(_size), TWall(_TW), alpha(_alpha), visc(_visc), K(_K), gravity(accel), Temperature(_T) {};
 
 	~Room();
 
 	double getTemp(double x, double y);
 
 	double getAlpha() {return alpha;};
+
+	double getVisc() {return visc;};
+
+	double getK() {return K;};
 
 	std::vector<double> getGrav() {return gravity;};
 

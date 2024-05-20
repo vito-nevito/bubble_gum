@@ -58,6 +58,6 @@ with open("info") as file:
 
 
 
-ani = animation.FuncAnimation(fig, update, N, fargs = (ax, lenRoom, point), interval=10000/N, blit=False)
+ani = animation.FuncAnimation(fig, update, N, fargs = (ax, lenRoom, point), interval=10*N, blit=False)
 ani.save('bubble.gif', writer='imagemagick')
 plt.show()

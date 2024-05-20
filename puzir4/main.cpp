@@ -44,20 +44,24 @@ int main(int argc, char* argv[])
 	std::string dataFile = "post/log.csv";
 
 	srand(time(0));
-	std::vector<double> lenRoom {10.0, 10.0, 10.0};
-	std::vector<double> startPoint {5.0, 1, 5.0};
-	std::vector<double> radInt{0, 0.5};
-	int N = 100;
-	int M = 10;
+	std::vector<double> lenRoom {10, 10, 10};
+	std::vector<double> startPoint {5, 5, 9};
+	std::vector<double> radInt{0.05, 0.5};
+	int N = 200;
+	int M = 20;
 	double VM = 0.5;
-	std::vector<int> dir {0, 1, 0};
+	std::vector<int> dir {0, 0, -1};
 	double deltaT = 0.5;
 	double writeInterval = 0.5;
 	//relate to  charge
 	double CM = 1;
 	// relate to temperature
 	tFunc* T = new LinearT({300, 10 ,10});
-	Room myRoom(lenRoom, 300, 0,  T, {0, 0, 0});
+	double konv = 0.01;
+	double visc = 0.1;
+	double electr = 1;
+	std::vector<double> grav{0, 0, 1};
+	Room myRoom(lenRoom, 300, konv, visc, electr, T, grav);
 
 	std::vector<Puzir> life;
 	std::vector<Puzir> dead;
@@ -69,7 +73,7 @@ int main(int argc, char* argv[])
 			calcCord(deltaT, myRoom, j);
 		}
 		// add 1 bubble
-		if(i < N)
+		if(i < N && i % 2 == 0)
 		{
 			life.push_back(Puzir(VM, dir, startPoint, radInt, myRoom, CM));
 		}
