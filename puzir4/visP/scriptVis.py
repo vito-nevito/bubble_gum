@@ -42,7 +42,7 @@ def update(num, ax, lenRoom, point):
         color = 'r' if cord.iloc[4] else 'b'
         ax.plot_surface(x, y, z,  rstride=4, cstride=4, color=color, linewidth=0, alpha=0.5)
         
-    ax.scatter(point[0], point[1], point[2], color='g', s=50)
+    ax.scatter(point[0], point[1], point[2], color='g', s=10)
     ax.set_title(f"Step {num}")
 
 N = 0

@@ -2,6 +2,7 @@
 #define PUZIR_H
 
 #include<vector>
+#include<cmath>
 #include "Room.h"
 
 class Puzir
@@ -20,6 +21,9 @@ private:
 public:
 
 	Puzir(double _VM,std::vector<int> dir, std::vector<double> _cord, std::vector<double> radInt, Room room, double _charge);
+
+	Puzir(std::vector<double> _c, std::vector<double> _v, std::vector<double> _a, double _r, double _ch):
+	    cordinates(_c), velocity(_v), acceleration(_a), radius(_r), timeLife(0), cause('L'), mass(_r*_r), temperature(5000 * std::pow(radius, 3)), charge(_ch) {};
 
 	Puzir(Puzir B1, Puzir B2);
 

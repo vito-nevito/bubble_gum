@@ -1,9 +1,8 @@
 #include "Puzir.h"
 #include<random>
-#include<cmath>
 
 Puzir::Puzir(double _VM, std::vector<int> dir, std::vector<double> _cord, std::vector<double> radInt, Room room, double _charge):
-	       	   timeLife(0), cause('\0') 
+	       	   timeLife(0), cause('\0')
 {
 	cordinates = _cord;
 	acceleration = room.getGrav();
